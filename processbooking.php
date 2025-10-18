@@ -13,6 +13,7 @@
     $age = $_POST["age"];
 
     $email = $_POST["email"];
+    
 
     // if(isset($_POST["fname"]))
     //     $fname = $_POST["firstname"];
