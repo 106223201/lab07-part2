@@ -36,7 +36,7 @@
         "ent" => "Ent Draft",
         "cram" => "Cram"
     );
-    $meal = isset($foodMap[$food]) ? $foodMap[$food] : ucfirst($food);
+    $meal = isset($foodMap[$food]) ? $foodMap[$food] : "None";
 
     // Get number of travellers //
     $partySize = isset($_POST["partysize"]) ? htmlspecialchars($_POST["partysize"]) : "";
